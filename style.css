@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body{
+    background: url(bgi.avif) no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 92vh;
+    width: 92vw;
+    position: relative;
+}
+.navber .logo{
+    color: white;
+    font-size: 2em;
+    margin: 15px 150px;
+}
+.navber .logo:hover{
+    color: tomato;
+    transition: linear 0.4s;
+    cursor: pointer;
+}
+
+.list ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+    margin-top: -30px;
+    margin-left: 180px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+
+.list ul li {
+    padding: 20px;
+    color: white;
+    margin-top: -30px;
+}
+.list ul li:hover{
+    color: tomato;
+    transition: linear 0.5s;
+    cursor: pointer;
+}
+
+button{
+    color: white;
+    background-color: tomato;
+    border: none;
+    outline: none;
+    padding: 6px 15px;
+    border-radius: 20px;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+button:hover{
+    color: black;
+    transition: linear 0.8s;
+    background-color: blanchedalmond;
+    cursor: pointer;
+}
+
+h1{
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+}
+p{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 52%;
+    left: 30%;
+    width: 50%;
+    text-align: center;
+}
